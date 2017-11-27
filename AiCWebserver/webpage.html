@@ -26,6 +26,7 @@ function dimSet(evt) {
 </head> 
 <body> 
     <h1>Stacja pogody - aktualna temperatura</h1>
+	<h2>Data godzina: $DATA_GODZINA$</h2>
     <div class="dimwrap" id="dimwrap">
 	  <input class="dimVal" type="number" id="dimVal" min="0" max="180" step="3" value="0" onclick="dimSet(event)" oninput="dimSet(event)" > 
 	  <input class= "dimSlide" type="range" id="dimSlide" min="0" max="180" step="3" value="0" onclick="dimSet(event)" oninput="dimSet(event)" >
